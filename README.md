@@ -50,7 +50,7 @@ Tvým cílem je vytvořit jednoduchý ovládací panel, u kterého budeme předs
 	- obrázky v jednotlivých komponentách importuj do proměnných a pak se na ně odkazuj pomocí těchto proměnných
 
 1. Prozkoumej složku `src`:
-	- všimni si, že máš připravenou úplně prádnou aplikaci
+	- všimni si, že máš připravenou úplně prázdnou aplikaci
 	- ve složce `src` je soubor `smartHomeData.js`, který obsahuje všechny potřebné údaje o naší chytré domácnosti uložené do objektu `smartHomeData`. Tento objekt se ze souboru exportuje, takže ho můžeš importovat do místa, kde ho budeš potřebovat (hlavní `index.jsx`). Podívej se, jako mají data o domácnosti strukturu.
 
 1. Do výchozího kódu aplikace v `index.jsx` přidej:
@@ -66,7 +66,7 @@ Tvým cílem je vytvořit jednoduchý ovládací panel, u kterého budeme předs
 1. Vytvoř samostatnou komponentu `Dashboard`, která bude obsahovat řídící panel. Komponentu naimportuj a vlož do kontejneru v hlavní aplikaci.
 
 	V komponentě `Dashboard` bude následující HTML:
-	```jsx
+	```
 	<main class="dashboard">
 	</main>
 	```
