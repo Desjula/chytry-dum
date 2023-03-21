@@ -14,14 +14,6 @@
 	border-radius: 4px;
 }
 
-.lights {
-	grid-area: lights;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	gap: 10px;
-}
-
 .button {
 	flex: 0 0 50%;
 	border: 0;
